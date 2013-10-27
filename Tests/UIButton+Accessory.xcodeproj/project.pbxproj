@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33142928473E42B78014D6F1 /* libPods-UIButton+Accessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A51D1948B8E42A08F86AE9D /* libPods-UIButton+Accessory.a */; };
+		7F254D35332643E6B3C1D75E /* libPods-UIButton+AccessoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E690A7AD35F4FC687146145 /* libPods-UIButton+AccessoryTests.a */; };
 		CCF4E756181DB56000EE26AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4E755181DB56000EE26AA /* Foundation.framework */; };
 		CCF4E758181DB56000EE26AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4E757181DB56000EE26AA /* CoreGraphics.framework */; };
 		CCF4E75A181DB56000EE26AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF4E759181DB56000EE26AA /* UIKit.framework */; };
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A51D1948B8E42A08F86AE9D /* libPods-UIButton+Accessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIButton+Accessory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E690A7AD35F4FC687146145 /* libPods-UIButton+AccessoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIButton+AccessoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B126132C632F40CCADCF14F1 /* Pods-UIButton+Accessory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButton+Accessory.xcconfig"; path = "Pods/Pods-UIButton+Accessory.xcconfig"; sourceTree = "<group>"; };
 		CCF4E752181DB56000EE26AA /* UIButton+Accessory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButton+Accessory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF4E755181DB56000EE26AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCF4E757181DB56000EE26AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,6 +49,7 @@
 		CCF4E776181DB56000EE26AA /* UIButton+AccessoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIButton+AccessoryTests-Info.plist"; sourceTree = "<group>"; };
 		CCF4E778181DB56000EE26AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCF4E77A181DB56000EE26AA /* UIButtonAccessoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonAccessoryTests.m; sourceTree = "<group>"; };
+		EB148E76C5D14BD48EE45FE5 /* Pods-UIButton+AccessoryTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIButton+AccessoryTests.xcconfig"; path = "Pods/Pods-UIButton+AccessoryTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 				CCF4E758181DB56000EE26AA /* CoreGraphics.framework in Frameworks */,
 				CCF4E75A181DB56000EE26AA /* UIKit.framework in Frameworks */,
 				CCF4E756181DB56000EE26AA /* Foundation.framework in Frameworks */,
+				33142928473E42B78014D6F1 /* libPods-UIButton+Accessory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,7 @@
 				CCF4E76F181DB56000EE26AA /* XCTest.framework in Frameworks */,
 				CCF4E771181DB56000EE26AA /* UIKit.framework in Frameworks */,
 				CCF4E770181DB56000EE26AA /* Foundation.framework in Frameworks */,
+				7F254D35332643E6B3C1D75E /* libPods-UIButton+AccessoryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,8 @@
 				CCF4E774181DB56000EE26AA /* UIButton+AccessoryTests */,
 				CCF4E754181DB56000EE26AA /* Frameworks */,
 				CCF4E753181DB56000EE26AA /* Products */,
+				B126132C632F40CCADCF14F1 /* Pods-UIButton+Accessory.xcconfig */,
+				EB148E76C5D14BD48EE45FE5 /* Pods-UIButton+AccessoryTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +106,8 @@
 				CCF4E757181DB56000EE26AA /* CoreGraphics.framework */,
 				CCF4E759181DB56000EE26AA /* UIKit.framework */,
 				CCF4E76E181DB56000EE26AA /* XCTest.framework */,
+				3A51D1948B8E42A08F86AE9D /* libPods-UIButton+Accessory.a */,
+				8E690A7AD35F4FC687146145 /* libPods-UIButton+AccessoryTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCF4E77E181DB56000EE26AA /* Build configuration list for PBXNativeTarget "UIButton+Accessory" */;
 			buildPhases = (
+				E22097E8407743DAB331888B /* Check Pods Manifest.lock */,
 				CCF4E74E181DB56000EE26AA /* Sources */,
 				CCF4E74F181DB56000EE26AA /* Frameworks */,
 				CCF4E750181DB56000EE26AA /* Resources */,
+				ACFD23F4ABD74044B0BBC188 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCF4E781181DB56000EE26AA /* Build configuration list for PBXNativeTarget "UIButton+AccessoryTests" */;
 			buildPhases = (
+				0B107FA0268F4D20B6C944DA /* Check Pods Manifest.lock */,
 				CCF4E769181DB56000EE26AA /* Sources */,
 				CCF4E76A181DB56000EE26AA /* Frameworks */,
 				CCF4E76B181DB56000EE26AA /* Resources */,
+				2765706A19D4408A9333A62A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +241,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B107FA0268F4D20B6C944DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2765706A19D4408A9333A62A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-UIButton+AccessoryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFD23F4ABD74044B0BBC188 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-UIButton+Accessory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22097E8407743DAB331888B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCF4E74E181DB56000EE26AA /* Sources */ = {
@@ -340,6 +419,7 @@
 		};
 		CCF4E77F181DB56000EE26AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B126132C632F40CCADCF14F1 /* Pods-UIButton+Accessory.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIButton+Accessory/UIButton+Accessory-Prefix.pch";
@@ -351,6 +431,7 @@
 		};
 		CCF4E780181DB56000EE26AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B126132C632F40CCADCF14F1 /* Pods-UIButton+Accessory.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIButton+Accessory/UIButton+Accessory-Prefix.pch";
@@ -362,6 +443,7 @@
 		};
 		CCF4E782181DB56000EE26AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB148E76C5D14BD48EE45FE5 /* Pods-UIButton+AccessoryTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIButton+Accessory.app/UIButton+Accessory";
@@ -385,6 +467,7 @@
 		};
 		CCF4E783181DB56000EE26AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB148E76C5D14BD48EE45FE5 /* Pods-UIButton+AccessoryTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIButton+Accessory.app/UIButton+Accessory";
@@ -421,6 +504,7 @@
 				CCF4E780181DB56000EE26AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCF4E781181DB56000EE26AA /* Build configuration list for PBXNativeTarget "UIButton+AccessoryTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +513,7 @@
 				CCF4E783181DB56000EE26AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

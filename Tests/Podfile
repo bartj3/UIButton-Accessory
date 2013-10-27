@@ -1,0 +1,9 @@
+target "UIButton+Accessory" do
+  pod 'UIButton+Accessory', path: '../'
+
+end
+
+target "UIButton+AccessoryTests" do
+  pod 'UIButton+Accessory', path: '../'
+  pod 'Kiwi/XCTest'
+end
