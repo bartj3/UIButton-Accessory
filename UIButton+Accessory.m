@@ -10,4 +10,9 @@
 
 @implementation UIButton (Accessory)
 
+- (void)setAccessoryType:(AccessoryType)accessoryType
+{
+    
+}
+
 @end

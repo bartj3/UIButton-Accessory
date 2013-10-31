@@ -1,34 +1,17 @@
-//
-//  UIButtonAccessoryTests.m
-//  UIButton+AccessoryTests
-//
-//  Created by Bart van Zon on 27/10/13.
-//  Copyright (c) 2013 Bart van Zon. All rights reserved.
-//
+#import "Kiwi.h"
+#import "UIButton+Accessory.h"
 
-#import <XCTest/XCTest.h>
+SPEC_BEGIN(UIButtonAccessorySpec)
 
-@interface UIButtonAccessoryTests : XCTestCase
+describe(@"The UIButton class", ^{
+    context(@"with an Accessory category", ^{
+        
+        it(@"should respond to the setAccessory method", ^{
+            UIButton *button = [[UIButton alloc] init];
+            
+            [[button should] respondToSelector:@selector(setAccessoryType:)];
+        });
+    });
+});
 
-@end
-
-@implementation UIButtonAccessoryTests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SPEC_END

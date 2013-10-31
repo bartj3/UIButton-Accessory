@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum
+{
+    DISCLOSURE
+}AccessoryType;
+
 @interface UIButton (Accessory)
+
+- (void)setAccessoryType:(AccessoryType)accessoryType;
 
 @end
