@@ -10,5 +10,5 @@ A UIButton category to add accessories to the buttons.
 The tests are in `UIButton+AccessoryTests.m` and require Kiwi to run.
 
 ## License
-AFNetworking is available under the MIT license. See the LICENSE file for more
-info.
+UIButton+Accessory is available under the MIT license. See the LICENSE file for
+more info.
